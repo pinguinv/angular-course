@@ -1,16 +1,21 @@
 .task {
-    background: #f4f4f4;
-    margin: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
-  .task.reminder {
-    border-left: 5px solid green;
-  }
-  
-  .task h3 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+  background: #19252e;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.task.reminder {
+  border-left: 5px solid green;
+}
+
+.task h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: initial;
+}
+
+.task p {
+  margin-bottom: 0;
+}
